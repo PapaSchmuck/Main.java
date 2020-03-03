@@ -1,0 +1,29 @@
+/*
+File name: Main.java
+Description: Chapter 2 Project Fundamental Data Types
+Created: March 1 2020 11:15am 
+Author: Sean Kilpatrick
+Email: seank5730@student.vvc.edu
+*/
+import java.util.Scanner;
+import java.lang.Math;
+
+public class Main
+{
+  public static void main(String[] args)
+  {
+    Scanner in = new Scanner(System.in);
+
+    System.out.print("Enter First Integer : "); // Requests user input for first integer 
+    int a = in.nextInt();
+    System.out.print("Enter Second Integer : "); // Requests user input for second integer 
+    int b = in.nextInt();
+    System.out.println("The Sum Is " +(a+b)); //Sum
+    System.out.println("The Difference Is " +(a-b)); //Difference
+    System.out.println("The Product Is " +(a * b));  //Product
+    System.out.println("The Distance Is " + Math.abs(a-b)); //Distance
+    System.out.println("The Minimum Value is " + Math.min(a , b)); //Minimum
+    System.out.println("The Maximum Value is " + Math.max(a , b)); //Maximum
+
+  }
+}
